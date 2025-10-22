@@ -1,0 +1,57 @@
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+.order-summary {
+  background-color: white;
+  width: 690px;
+  height: 1000px;
+  border-radius: 20px;
+}
+.order-summary-card {
+  width: 100%;
+  height: 370px;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+.order-summary-title {
+  height: 200px;
+  border: 1px solid hsl(223, 47%, 23%);
+  padding-top: 20px;
+}
+.order-summary-heading {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.order-summary-text {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+
+}
+.order-summary-plan {
+  height: 150px;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  margin: 60px 70px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.order-summary-payment {
+  height: 150px;
+  background-color: hsl(225, 54%, 45%);
+}
